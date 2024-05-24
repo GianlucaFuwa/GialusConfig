@@ -61,22 +61,22 @@ import OhMyREPL: Passes.SyntaxHighlighter
 
 function set_colors()
     # Base.text_colors[:light_black] = Base.text_colors[24]
-    let catppuccin_mocha = SyntaxHighlighter.ColorScheme()
-        SyntaxHighlighter.symbol!(catppuccin_mocha, crayon"#1AC2E1")
-        SyntaxHighlighter.comment!(catppuccin_mocha, crayon"#6C7086")
-        SyntaxHighlighter.string!(catppuccin_mocha, crayon"#A6E3A1")
-        SyntaxHighlighter.call!(catppuccin_mocha, crayon"#89B4FA")
-        SyntaxHighlighter.op!(catppuccin_mocha, crayon"#89DCEB")
-        SyntaxHighlighter.keyword!(catppuccin_mocha, crayon"#CBA6F7")
-        SyntaxHighlighter.function_def!(catppuccin_mocha, crayon"#F38BA8")
-        SyntaxHighlighter.error!(catppuccin_mocha, crayon"#11111B")
-        SyntaxHighlighter.argdef!(catppuccin_mocha, crayon"#CDD6F4")
-        SyntaxHighlighter.macro!(catppuccin_mocha, crayon"#F9E2AF")
-        SyntaxHighlighter.number!(catppuccin_mocha, crayon"#FAB387")
-        SyntaxHighlighter.text!(catppuccin_mocha, crayon"#AEAEAE")
-        SyntaxHighlighter.add!("Catppuccin Mocha", catppuccin_mocha)
-    end
-    colorscheme!("Catppuccin Mocha")
+    # let catppuccin_mocha = SyntaxHighlighter.ColorScheme()
+    #     SyntaxHighlighter.symbol!(catppuccin_mocha, crayon"#1AC2E1")
+    #     SyntaxHighlighter.comment!(catppuccin_mocha, crayon"#6C7086")
+    #     SyntaxHighlighter.string!(catppuccin_mocha, crayon"#A6E3A1")
+    #     SyntaxHighlighter.call!(catppuccin_mocha, crayon"#89B4FA")
+    #     SyntaxHighlighter.op!(catppuccin_mocha, crayon"#89DCEB")
+    #     SyntaxHighlighter.keyword!(catppuccin_mocha, crayon"#CBA6F7")
+    #     SyntaxHighlighter.function_def!(catppuccin_mocha, crayon"#F38BA8")
+    #     SyntaxHighlighter.error!(catppuccin_mocha, crayon"#11111B")
+    #     SyntaxHighlighter.argdef!(catppuccin_mocha, crayon"#CDD6F4")
+    #     SyntaxHighlighter.macro!(catppuccin_mocha, crayon"#F9E2AF")
+    #     SyntaxHighlighter.number!(catppuccin_mocha, crayon"#FAB387")
+    #     SyntaxHighlighter.text!(catppuccin_mocha, crayon"#AEAEAE")
+    #     SyntaxHighlighter.add!("Catppuccin Mocha", catppuccin_mocha)
+    # end
+    colorscheme!("GruvboxDark")
 end
 
 import REPL
